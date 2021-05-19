@@ -3,7 +3,7 @@
 ##############################################################
 ### Définition des variables globales
 
-@hostname = "localhost:3000"
+@hostname = "http://localhost:3000"
 
 # #############
 #  Parameters #
@@ -15,8 +15,7 @@
 # localhost:3000/quotes?text=love&limit=3&page=2
 ## 
 GET http://localhost:3000/quotes?text=moss&limit=10&page=1 HTTP/1.1
-
-
+    
 ### 
 GET http://localhost:3000/quotes?text=work&limit=10 HTTP/1.1
 
