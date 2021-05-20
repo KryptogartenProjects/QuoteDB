@@ -1,3 +1,6 @@
+/**
+ * Main application file.
+ */
 const elastic = require("./elastic");
 const server  = require("./server");
 const data    = require("./data");
